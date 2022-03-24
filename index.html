@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Innersoul</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="nav-branding">
+            <a href="index.html"><span>Innersoul</span></a>
+        </div>
+        <div class="menu-btn">
+            <button onclick="openManu()"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="index.html#new">New</a></li>
+                <li><a href="collection.html">Collection</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <ul>
+                <li class="search-input" id="search-txt-input" ><input type="text" placeholder="search"> <button onclick="openSearch()"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+                <li><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li><a class="login-btn" href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="menu" id="menu">
+        <div class="close-btn">
+            <button onclick="closeManu()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="menu-branding">
+            <a href="index.html"><span>Innersoul</span></a>
+        </div>
+        <nav class="menu-links">
+            <ul>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="index.html#new">New</a></li>
+                <li><a href="collection.html">Collection</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="main-container landing">
+        <div class="flex-container">
+            <div class="text-card-1">
+                <span>Start Building A Better You</span>
+                <p>We had a rough list of spots that we wanted to see. A lot of it was based on photos we've seen online or from friends' previous trips.</p>
+            </div>
+            <div class="img-card">
+                <img src="img/main-img.jpg" alt="img">
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com">Facebook</a>
+                <a href="https://www.instagram.com">Instagram</a>
+                <a href="https://twitter.com">Twitter</a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="new-now"  id="new">
+            <p>New now</p>
+            <div class="products">
+                <a href="product-page.html">
+                    <div class="product-card">
+                    <img src="img/product/img-1.jpg" alt="img">
+                    <div class="product-info">
+                    <span>FLORAL PRINT DRESS</span>
+                    <span>₹4,990.00</span>
+                    </div>
+                </div></a>
+                
+                <a href="product-page.html">
+                    <div class="product-card">
+                        <img src="img/product/img-2.jpg" alt="img">
+                        <div class="product-info">
+                            <span>CROPPED SATINY SHIRT</span>
+                            <span>₹2,890.00</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="product-page.html">
+                    <div class="product-card">
+                        <img src="img/product/img-3.jpg" alt="img">
+                        <div class="product-info">
+                            <span>BELTED FAUX SUEDE WAISTCOAT</span>
+                            <span>₹2,990.00</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="product-page.html">
+                    <div class="product-card">
+                        <img src="img/product/img-4.jpg" alt="img">
+                        <div class="product-info">
+                            <span>LOOSE-FITTING OVERSIZED SHIRT</span>
+                            <span>₹2,590.00</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="new-now"  id="new">
+            <p>Featured</p>
+            <div class="products">
+                <a href="product-page.html">
+                    <div class="product-card">
+                    <img src="img/product/img-5.jpg" alt="img">
+                    <div class="product-info">
+                    <span>LONG COAT WITH POCKETS</span>
+                    <span>₹7,990.00</span>
+                    </div>
+                </div></a>
+                
+                <a href="product-page.html">
+                    <div class="product-card">
+                        <img src="img/product/img-6.jpg" alt="img">
+                        <div class="product-info">
+                            <span>CROPPED PUFFER JACKET</span>
+                            <span>₹4,990.00</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="product-page.html">
+                    <div class="product-card">
+                        <img src="img/product/img-7.jpg" alt="img">
+                        <div class="product-info">
+                            <span>WOOL BLEND COAT WITH BELT</span>
+                            <span>₹13,990.00</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="product-page.html">
+                    <div class="product-card">
+                        <img src="img/product/img-8.jpg" alt="img">
+                        <div class="product-info">
+                            <span>QUILTED JACKET WITH HOOD</span>
+                            <span>₹4,990.00</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="main-container reveal">
+        <div class="info-flex-container">
+            <div class="img-card">
+                <img src="img/info.jpg" alt="img">
+            </div>
+            <div class="info-flex">
+                <div class="text-card-2">
+                    <span>We Wil Help You To Feel You Inner Beauty</span>
+                    <div class="site-info">
+                        <p>All of these feelings are natural occurrences as we experience negativity, doubt, and even failure. The problem many people don’t realize that and it’s understandable why that is. We all want to feel positive all the time.</p>
+                        <p>At the end of the day, we all make mistakes and being able to stop self-harming thoughts like the ones mentioned above are a sign of mental strength. You too can achieve that by finding ways to put self-love into your life.</p>
+                    </div>
+                </div>
+                <div class="clients-info">
+                        <span>5200+<br><p>Happy Clients</p></span>
+                        <span>92%<br><p>5 Star Review</p></span>
+                        <span>690<br><p>Products</p></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container reveal">
+        <div class="categories">
+            <p>Browse Categories</p>
+            <div class="cat-links">
+                <a href="dresses.html">Dresses</a>
+                <a href="trouser.html">Trouser & Jumpsuit</a>
+                <a href="pants.html">Pant & Jumpsuit</a>
+                <a href="tops.html">Shirt & Tops</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="main-container reveal">
+        <div class="updates">
+            <div class="sub-section">
+                <span>Subscribe To See The Latest Updates</span>
+                <form>
+                    <input type="email" placeholder="Email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="img-section">
+                <img src="img/update-1.jpg" alt="update">
+                <img src="img/update-2.jpg" alt="update">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        
+        <div class="footer-flex">
+            <div class="footer-branding">
+                <span></span><a href="index.html">Innersoul</a></span>
+            </div>
+    
+            <div class="navigate">
+                <span>Navigate</span>
+                <p><a href="">Shop</a></p>
+                <p><a href="index.html">Lookback</a></p>
+                <p><a href="">About</a></p>
+                <p><a href="">Contact</a></p>
+            </div>
+    
+            <div class="assistance">
+                <span>Assistance</span>
+                <p><a href="">Shipping</a></p>
+                <p><a href="">Privacy policy</a></p>
+                <p><a href="">FAQ</a></p>
+            </div>
+    
+            <div class="social-footer">
+                <span>Social</span>
+                <p><a href="https://www.facebook.com">Facebook</a></p>
+                <p><a href="https://www.instagram.com">Instagram</a></p>
+                <p><a href="https://twitter.com">Twitter</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <span>Copyright © Innersoul 2022</span>
+    </div>
+
+    <script src="index.js"></script>
+
+    <!-- for scroll reveal animation -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+    ScrollReveal().reveal('.landing',{delay : 300})
+    ScrollReveal().reveal('.reveal', { delay: 250 });
+    ScrollReveal().reveal('.products', { delay: 250 });
+    </script>
+
+</body>
+</html>
